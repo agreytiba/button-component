@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.wrapper{
+    max-width: 1000px;
+}
+section{
+    display:flex;
+    justify-content:flex-start;
+    column-gap: 6rem;
+    margin-top: 1rem;
+}
