@@ -13,3 +13,6 @@ section{
     column-gap: 6rem;
     margin-top: 1rem;
 }
+.btn.one{
+    background-color: brown;
+}

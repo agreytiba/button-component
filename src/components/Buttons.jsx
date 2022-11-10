@@ -11,9 +11,10 @@ export default function Buttons() {
 						type={'button'}
 						disabled={true}
 						variant={'contained'}
-						bcolor={'success'}
+						bcolor={'default'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
+						
 					/>
 				</section>
 				<section>
@@ -23,7 +24,7 @@ export default function Buttons() {
 						variant={'outlined'}
 						bcolor={'primary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
 					/>
 				</section>
 				<section>
@@ -33,7 +34,7 @@ export default function Buttons() {
 						variant={'text'}
 						bcolor={'primary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
 					/>
 				</section>
 				<section>
@@ -43,7 +44,7 @@ export default function Buttons() {
 						variant={'contained'}
 						bcolor={'primary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
 					/>
 				</section>
 
@@ -55,7 +56,7 @@ export default function Buttons() {
 						variant={'contained'}
 						bcolor={'primary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
 					/>
 					<ButtonNew
 						id={'btn-six'}
@@ -64,7 +65,7 @@ export default function Buttons() {
 						variant={'text'}
 						bcolor={'primary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Disabled'}
 					/>
 				</section>
 				<section>
@@ -119,9 +120,9 @@ export default function Buttons() {
 						id={'btn-eleven'}
 						type={'button'}
 						variant={'contained'}
-						bcolor={'success'}
+						bcolor={'default'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
 					/>
 					 <ButtonNew
 						id={'btn-twelve'}
@@ -129,7 +130,7 @@ export default function Buttons() {
 						variant={'contained'}
 						bcolor={'primary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Default'}
 					/>
 				<ButtonNew
 						id={'btn-13'}
@@ -137,7 +138,7 @@ export default function Buttons() {
 						variant={'contained'}
 						bcolor={'secondary'}
 						size={'medium'}
-						value={'new button'}
+						value={'Secondary'}
 					/>
 						<ButtonNew
 						id={'btn-13'}
@@ -145,7 +146,7 @@ export default function Buttons() {
 						variant={'contained'}
 						bcolor={'error'}
 						size={'medium'}
-						value={'new button'}
+						value={'Danger'}
 					/>
 				</section>
 			</div>
